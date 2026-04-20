@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー — IRON LOG</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.8;
+      padding: 40px 20px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .logo {
+      font-size: 28px;
+      font-weight: 900;
+      color: #00FF87;
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #00FF87;
+      margin-top: 36px;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #1e1e1e;
+    }
+    p { margin-bottom: 12px; color: #ccc; font-size: 15px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { color: #ccc; font-size: 15px; margin-bottom: 6px; }
+    .highlight {
+      background: #111;
+      border-left: 3px solid #00FF87;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0;
+      font-size: 15px;
+      color: #e0e0e0;
+    }
+    a { color: #00FF87; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #1e1e1e;
+      font-size: 13px;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">IRON LOG</div>
+    <h1>プライバシーポリシー</h1>
+    <p class="updated">最終更新日：2026年4月10日</p>
+
+    <div class="highlight">
+      IRON LOG はお客様のデータを外部サーバーへ送信しません。<br>
+      すべての記録はお使いの端末内にのみ保存されます。
+    </div>
+
+    <h2>1. 収集する情報</h2>
+    <p>IRON LOG は、アプリの機能を提供するために以下の情報をお客様の端末内に保存します。</p>
+    <ul>
+      <li>ワークアウト記録（種目名・重量・回数・セット数・日時・所要時間）</li>
+      <li>体重記録（体重・日時）</li>
+      <li>アプリ設定（単位・体重・通知設定 など）</li>
+    </ul>
+    <p>これらの情報は端末内のローカルデータベース（SQLite）にのみ保存され、当社または第三者のサーバーへ送信されることはありません。</p>
+
+    <h2>2. 情報の利用目的</h2>
+    <p>保存された情報は以下の目的のみに使用します。</p>
+    <ul>
+      <li>ワークアウト履歴・分析グラフの表示</li>
+      <li>1RM・消費カロリーの推定計算</li>
+      <li>セット間インターバルタイマーの通知</li>
+      <li>体重推移グラフの表示</li>
+      <li>ルーティンの保存・呼び出し</li>
+    </ul>
+
+    <h2>3. 第三者への情報提供</h2>
+    <p>当社はお客様の個人情報を第三者に販売・提供・開示することはありません。</p>
+    <p>IRON LOG が使用しているサードパーティライブラリは以下のとおりです。</p>
+    <ul>
+      <li><strong>Expo / React Native</strong> — アプリフレームワーク（Meta / Expo Inc.）</li>
+      <li><strong>expo-sqlite</strong> — 端末内データベース（外部通信なし）</li>
+      <li><strong>expo-notifications</strong> — ローカル通知（外部通信なし）</li>
+      <li><strong>expo-secure-store</strong> — 認証情報のセキュアな保存（端末内のみ）</li>
+    </ul>
+    <p>これらのライブラリはいずれも端末外への個人データ送信を行いません。</p>
+
+    <h2>4. アクセス権限について</h2>
+    <p>IRON LOG はアプリの機能に必要な最小限の権限のみを要求します。</p>
+    <ul>
+      <li><strong>通知（Notifications）</strong> — セット間インターバルタイマーの通知に使用</li>
+    </ul>
+    <p>カメラ・位置情報・連絡先・マイクなどの権限は要求しません。</p>
+
+    <h2>5. データの保存と削除</h2>
+    <p>すべてのデータはお使いの iPhone 内にのみ保存されます。アプリをアンインストールすることで、すべてのデータが端末から削除されます。</p>
+    <p>アプリ内の「設定」画面から、体重記録・ワークアウト履歴を個別に削除することもできます。</p>
+
+    <h2>6. 子どものプライバシー</h2>
+    <p>IRON LOG は13歳未満のお子様を対象としていません。13歳未満の方からの個人情報を意図的に収集することはありません。</p>
+
+    <h2>7. プライバシーポリシーの変更</h2>
+    <p>本ポリシーは必要に応じて更新されることがあります。重要な変更がある場合は、アプリのアップデートを通じてお知らせします。変更後も引き続きアプリをご利用いただいた場合、変更後のポリシーに同意したものとみなします。</p>
+
+    <h2>8. お問い合わせ</h2>
+    <p>プライバシーに関するご質問・ご要望は、以下の連絡先までお気軽にお問い合わせください。</p>
+    <p>
+      メールアドレス：<a href="mailto:support@ironlog.app">support@ironlog.app</a>
+    </p>
+
+    <footer>
+      &copy; 2026 IRON LOG. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
